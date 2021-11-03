@@ -1,0 +1,87 @@
+body{
+  margin: 0;
+  background-image: url("F:/workspeace/okihp/img/haikei.png");
+  background-repeat: repeat;
+}
+ul{
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #eeeeee
+}
+
+ul a{
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color:#000000
+}
+
+li{
+  text-align: center;
+}
+li:last-child {
+	border-bottom:none;
+}
+li a.active {
+	color: #ffffff;
+	background-color: #da3c41;
+}
+li a:hover:not(.active) {
+	color: #ffffff;
+	background-color: #1b2538;
+}
+
+.full{
+  background-size: cover;
+  background-image:url("F:/workspeace/okihp/img/tumblr_n6kholb70q1sd011wo1_1280.gif");
+}
+
+.wrap-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display:none ;
+}
+
+.l-nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.l-nav_conteiner{
+  position: relative;
+  margin: 0 auto;
+  width: 78.571%;
+  max-width: 1300px;
+  height: 100%;
+}
+
+.l-nav_in{
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.l-nav_inner{
+
+}
+
+.p-gnav{
+
+}

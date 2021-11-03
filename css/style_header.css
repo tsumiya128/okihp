@@ -1,0 +1,126 @@
+.p-header{
+  width:100%;
+  position:relative;
+  z-index: 0;
+}
+
+.p-header_containar{
+  width:100%;
+  height: 100vh;
+  position:relative;
+}
+
+/*@media screen and (min-width: 961px)*/
+.p-header_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    display: block;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.p-header_bg{
+  display: block;
+  z-index: -1;
+  overflow: hidden;
+}
+
+/*@media screen and (min-width: 961px)*/
+.p-header_bg_mv {
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -30%);
+    transform: translate(-50%, -30%);
+    -webkit-transform: scale(10%, 0%);
+    transform: scale(10%, 0%);
+    height: 100vh;
+    width: 100vw;
+    min-width: 178.704vh;
+    min-height: 60vw;
+}
+
+.p-header_bg_mv {
+    display: block;
+}
+
+.p-header_bg_mv video {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+video {
+    object-fit: contain;
+}
+/*---inner---*/
+
+/*@media screen and (min-width: 961px)*/
+.p-header_inner {
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.p-header_inner {
+    width: 100%;
+    max-width: 80vh;
+}
+
+
+/*.p-header_inner_logo{
+    opacity: 1;
+    -webkit-transition: opacity 2s cubic-bezier(0.65, 0, 0.35, 1);
+    transition: opacity 2s cubic-bezier(0.65, 0, 0.35, 1);
+}
+*/
+
+.p-header_inner_logo {
+    position: relative;
+    /*opacity: 0;*/
+    margin: 0 auto;
+    width: 94%;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#p-header_inner_img{
+  width: 100%;
+  object-fit: cover;
+}
+
+/*---catch---*/
+
+/*
+.p-header_catch{
+  width: 34%;
+  max-width: 60vw;
+}
+*/
+
+/*@media screen and (min-width:961px)*/
+.p-header_catch{
+  position:absolute;
+  top:8%;
+  left:50%;
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
